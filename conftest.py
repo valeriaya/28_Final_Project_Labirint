@@ -1,7 +1,4 @@
-# This is example shows how we can manage failed tests
-# Этот пример показывает, как мы можем управлять неудачными тестами
-# and make screenshots after any failed test case.
-# и делайте скриншоты после любого неудачного тестового примера.
+
 
 import pytest
 import allure
