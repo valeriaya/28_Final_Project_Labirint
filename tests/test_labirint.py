@@ -34,7 +34,7 @@ def test_auth(selenium):
     search_button.submit()
     time.sleep(5)
 
-    # Сделайте скриншот окна браузера:
+    # Сделайте скриншот:
     selenium.save_screenshot('lk.png')
     # assert page.get_current_url() == URL + '/cabinet'
 
@@ -58,7 +58,7 @@ def test_authgoogle(selenium):
         'span.new-auth__auth-social__text.header-sprite.new-auth__auth-social_gl')
     element.click()
 
-    # Сделайте скриншот окна браузера:
+    # Сделайте скриншот:
     selenium.save_screenshot('auth-google.png')
 
 
@@ -73,7 +73,7 @@ def test_elem_books(selenium):
     element.click()
     time.sleep(1)
 
-    # Сделайте скриншот окна браузера:
+    # Сделайте скриншот:
     selenium.save_screenshot('books.png')
 
 
@@ -99,7 +99,7 @@ def test_search_book(selenium):
     search_button.submit()
     time.sleep(5)
 
-    # Сделайте скриншот окна браузера:
+    # Сделайте скриншот:
     selenium.save_screenshot('book.png')
 
 
@@ -114,7 +114,7 @@ def test_page_main2022(selenium):
     element.click()
     time.sleep(1)
 
-    # Сделайте скриншот окна браузера:
+    # Сделайте скриншот:
     selenium.save_screenshot('page_2022.png')
 
 
@@ -128,7 +128,7 @@ def test_page_deliveryandpay(selenium):
         'li.b-header-b-sec-menu-e-list-item.first-child.analytics-click-js')
     element.click()
 
-    # Сделайте скриншот окна браузера:
+    # Сделайте скриншот:
     selenium.save_screenshot('deliv.png')
 
 
@@ -142,7 +142,7 @@ def test_page_cert(selenium):
         'li.b-header-b-sec-menu-e-list-item.analytics-click-js[data-event-content="Сертификаты"]')
     element.click()
 
-    # Сделайте скриншот окна браузера:
+    # Сделайте скриншот:
     selenium.save_screenshot('cert.png')
 
 
@@ -156,7 +156,7 @@ def test_page_ratings(selenium):
         'li.b-header-b-sec-menu-e-list-item.analytics-click-js[data-event-content="Рейтинги"]')
     element.click()
 
-    # Сделайте скриншот окна браузера:
+    # Сделайте скриншот:
     selenium.save_screenshot('ratings.png')
 
 
@@ -170,7 +170,7 @@ def test_page_new_books(selenium):
         'li.b-header-b-sec-menu-e-list-item.analytics-click-js[data-event-content="Новинки"]')
     element.click()
 
-    # Сделайте скриншот окна браузера:
+    # Сделайте скриншот:
     selenium.save_screenshot('newbooks.png')
 
 
