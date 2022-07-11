@@ -26,7 +26,7 @@ def test_support(selenium):
         'li.b-header-b-sec-menu-e-list-item.analytics-click-js[data-event-content="Поддержка"]')
     element.click()
 
-    # Сделайте скриншот окна браузера:
+    # Сделайте скриншот:
     selenium.save_screenshot('support.png')
 
 
@@ -55,7 +55,7 @@ def test_messages(selenium):
         'a.b-header-b-personal-e-link.top-link-main.have-dropdown-touchlink.top-link-main_notification')
     element.click()
 
-    # Сделайте скриншот окна браузера:
+    # Сделайте скриншот:
     selenium.save_screenshot('message.png')
 
 
@@ -77,7 +77,7 @@ def test_book_type(selenium):
     element.click()
     time.sleep(1)
 
-    # Сделайте скриншот окна браузера:
+    # Сделайте скриншот:
     selenium.save_screenshot('book_type.png')
 
 
@@ -165,7 +165,7 @@ def test_page_fiction(selenium):
     element.click()
     time.sleep(1)
 
-    # Сделайте скриншот окна браузера:
+    # Сделайте скриншот:
     selenium.save_screenshot('fiction.png')
 
 
@@ -187,7 +187,7 @@ def test_page_nonfiction(selenium):
     element.click()
     time.sleep(1)
 
-    # Сделайте скриншот окна браузера:
+    # Сделайте скриншот:
     selenium.save_screenshot('nonfiction.png')
 
 
@@ -231,7 +231,7 @@ def test_book_review(selenium):
     element.click()
     time.sleep(5)
 
-    # Сделать скриншот окна браузера:
+    # Сделать скриншот:
     selenium.save_screenshot('reviews.png')
 
 
@@ -253,7 +253,7 @@ def test_readers_review(selenium):
     element.click()
     time.sleep(1)
 
-    # Сделайте скриншот окна браузера:
+    # Сделайте скриншот:
     selenium.save_screenshot('readers_reviews.png')
 
 
