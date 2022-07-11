@@ -174,7 +174,7 @@ def test_club_now(selenium):
     element.click()
     time.sleep(1)
 
-    # Сделайте скриншот окна браузера:
+    # Сделайте скриншот:
     selenium.save_screenshot('club_now.png')
 
 
