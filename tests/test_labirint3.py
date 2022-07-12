@@ -1,5 +1,5 @@
 import time
-from settings import valid_email, valid_password, URL
+from settings import URL
 
 def test_best_buy(selenium):
 

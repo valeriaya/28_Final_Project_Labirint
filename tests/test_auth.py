@@ -48,7 +48,7 @@ def test_auth(web_browser):
     time.sleep(5)
 
     # Сделать скриншот личного кабинета:
-    web_browser.save_screenshot('screen.png')
+    web_browser.save_screenshot('lk.png')
 
 
 #  path: python -m pytest -v --driver Chrome --driver-path tests/chromedriver.exe tests/test_auth.py

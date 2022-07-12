@@ -1,5 +1,5 @@
 import time
-from settings import valid_email, valid_password, URL
+from settings import URL
 
 
 def test_page_contacts(selenium):
@@ -147,7 +147,7 @@ def test_books_children(selenium):
     selenium.save_screenshot('children.png')
 
 
-def test_page_fiction(selenium):
+def test_fiction(selenium):
 
     # Главная страница labirint:
     selenium.get(URL)
@@ -169,7 +169,7 @@ def test_page_fiction(selenium):
     selenium.save_screenshot('fiction.png')
 
 
-def test_page_nonfiction(selenium):
+def test_nonfiction(selenium):
 
     # Главная страница labirint:
     selenium.get(URL)
